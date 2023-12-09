@@ -1,6 +1,7 @@
 dist
 doc
 .github
+package-lock.json
 
 # Logs
 logs

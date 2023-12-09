@@ -26,4 +26,4 @@
 
 [Game]()
 
-![CI]()
+![CI](https://ci.appveyor.com/api/projects/status/bwu6c01ppks34yy6?svg=true)

@@ -14,7 +14,6 @@ body {
 .game-cell {
     width: 99px;
     height: 99px;
-    border: 1px solid black;
     border: 4px solid black; /* Толщина границы 4px */
     box-sizing: border-box; /* Границы включаются в размер блока */
 }

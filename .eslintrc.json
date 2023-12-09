@@ -1,23 +1,16 @@
 {
-  "plugins": ["prettier"],
-  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "extends": "standard",
   "env": {
     "es6": true,
     "browser": true,
-    "jest/globals": true
-  },
-  "parserOptions": {
-    "sourceType": "module"
+    "jest": true
   },
   "rules": {
-    "no-unused-vars": "warn"
-  },
-  "overrides": [
-    {
-      "files": ["**/*.test.js"],
-      "plugins": ["jest"],
-      "extends": ["plugin:jest/recommended"],
-      "rules": { "jest/prefer-expect-assertions": "off" }
-    }
-  ]
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "no-use-before-define": "off"
+  }
 }

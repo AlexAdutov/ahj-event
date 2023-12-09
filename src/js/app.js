@@ -1,17 +1,17 @@
-import GameGoblin from './game';
+import GameGoblin from './game'
 
-console.log('app started');
+console.log('app started')
 
-const app = new GameGoblin();
+const app = new GameGoblin()
 
-app.renderApp();
+app.renderApp()
 
-const completeField = Array.from(document.querySelectorAll('.game-cell'));
+const completeField = Array.from(document.querySelectorAll('.game-cell'))
 
-app.getRandomPicture(completeField);
+app.getRandomPicture(completeField)
 
 setInterval(() => {
-  app.getRandomPicture(completeField);
-}, 1500);
+  app.getRandomPicture(completeField)
+}, 1500)
 
-app.gameClick(completeField);
+app.gameClick(completeField)

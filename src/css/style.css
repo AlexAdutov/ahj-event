@@ -22,9 +22,23 @@ body {
     background-image: url('../img/goblin.png');
     background-repeat: no-repeat;
     background-position: center;
-  background-size: 80px;
+    background-size: 80px;
+    box-shadow: 0 0 2px #000;
+    transition: 2s ease;
 
+    animation: pulse 2s infinite alternate;
 }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.1);
+      }
+    }
+
+
 
 .cursor {
     cursor: url('../img/bam.png'), auto;

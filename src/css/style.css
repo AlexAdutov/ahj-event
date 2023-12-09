@@ -1,5 +1,8 @@
 body {
-    color: #999;
+    color: deepskyblue;
+    text-align: center;
+  background-color: dimgray;
+
 }
 
 #game {
@@ -46,8 +49,10 @@ body {
 
 .points {
     width: 400px;
-    color: black;
+    color: deepskyblue;
     margin-left: auto;
     margin-right: auto;
     font-size: 25px;
+    font-weight: bold;
 }
+
